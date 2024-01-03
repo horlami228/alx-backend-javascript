@@ -1,4 +1,3 @@
-import taskBlock from './1-block-scoped.js';
+import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
 
-console.log(taskBlock(true));
-console.log(taskBlock(false));
+console.log(getBudgetForCurrentYear(2100, 5200, 1090));
