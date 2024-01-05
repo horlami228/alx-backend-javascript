@@ -1,6 +1,6 @@
 # Getting Started with ES6 basics
 
-## ES6 which stands for ECMAScript 2015 is the sixth edition of ECMAScript standard for JavaScript.
+## ES6 which stands for ECMAScript2015 is the sixth edition of ECMAScript standard for JavaScript.
 
 ## This introduced several new features that makes JavaScript more rich in quality.
 
@@ -15,3 +15,4 @@
 * A better way to import and export modules
 * Promises for asynchronous operations
 * new improved way of defining classes
+* The map
