@@ -50,9 +50,9 @@ export default class Pricing {
 
   // static method covert price
   static convertPrice(amount, conversionRate) {
-    if (amount !== 'number') {
+    if (typeof amount !== 'number') {
       throw new Error('Amount should be a number');
-    } else if (conversionRate !== 'number') {
+    } else if (typeof conversionRate !== 'number') {
       throw new Error('CoversionRate should be a number');
     }
 
