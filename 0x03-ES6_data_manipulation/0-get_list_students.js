@@ -2,7 +2,7 @@ function getListStudents() {
   return [
     {
       id: 1,
-      firstName: 'Guilluame',
+      firstName: 'Guillaume',
       location: 'San Francisco',
     },
     {
