@@ -63,3 +63,13 @@ export function executeWork(employee: (Director | Teacher)) {
   }
 }
 
+export type Subjects = ("Math" | "History");
+
+export function teachClass(todayClass: Subjects) {
+  if (todayClass === 'Math') {
+    return 'Teaching Math';
+  } else {
+    return 'Teaching History'
+  }
+}
+
