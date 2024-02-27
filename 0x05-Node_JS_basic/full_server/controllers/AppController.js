@@ -1,6 +1,5 @@
 /**
  * Contains the miscellaneous route handlers.
- * 
  */
 class AppController {
   static getHomepage(request, response) {
